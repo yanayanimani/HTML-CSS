@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+}
+
+body {
+  background-color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  background-color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 100px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #222;
+  list-style: none;
+  float: left;
+  width: 200px;
+  margin-left: 30px;
+}
+
+.nav-links a:hover {
+  color: #f5b400;
+}
+
+
+/* ========== HERO SECTION ========== */
+.main-container {
+  background-color: #ffc400;
+  padding: 70px 80px;
+}
+
+.container_yellow {
+  background-color: #ffc400;
+  padding: 60px 80px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-text {
+  max-width: 50%;
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 12px 28px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: #00bcd4;
+  border: none;
+  color: white;
+}
+
+.outline {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
+.outline:hover {
+  background-color: white;
+  color: #ffc400;
+}
+
+.hero-image img {
+  width: 350px;
+}
+
+/* ========== SECOND SECTION ========== */
+
+.second-section {
+  padding: 80px;
+}
+
+.second-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.second-text {
+  max-width: 45%;
+}
+
+.second-text h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.second-text p {
+  margin-bottom: 25px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.second-image {
+  position: relative;
+}
+
+.second-image img {
+  width: 420px;
+  display: block;
+}
+
+/* THIRD SECTION */
+.third-section {
+  background-color: #f5b400;
+  padding: 80px;
+  text-align: center;
+}
+
+.third-section h2 {
+  font-size: 42px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.third-section h3{
+  font-size: 20px;
+  color: white;
+  margin-top: 5px;
+}
+
+.third-desc {
+  color: white;
+  font-size: 15px;
+  max-width: 600px;
+  margin: 0 auto 50px;
+}
+
+/* SERVICE CARDS */
+.services {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.service-card {
+  background-color: transparent;
+  width: 300px;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.service-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.service-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+
+
+
+/* ========== RESPONSIVE (BONUS) ========== */
+@media (max-width: 768px) {
+  .hero,
+  .second-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text,
+  .second-text {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+}
