@@ -198,21 +198,3 @@ body {
   font-size: 14px;
   color: #ffffff;
 }
-
-
-
-
-/* ========== RESPONSIVE (BONUS) ========== */
-@media (max-width: 768px) {
-  .hero,
-  .second-content {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .hero-text,
-  .second-text {
-    max-width: 100%;
-    margin-bottom: 30px;
-  }
-}
